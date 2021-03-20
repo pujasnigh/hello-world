@@ -5,8 +5,8 @@ phases:
     runtime-versions:
       python: 3.7
   build:
-    commands:
-      - pip install -r requirements.txt --target .
+   # commands:
+      #- pip install -r requirements.txt --target .
   post_build:
     commands:
       - echo Build completed on 'date'    
